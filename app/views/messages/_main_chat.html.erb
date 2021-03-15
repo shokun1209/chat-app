@@ -7,7 +7,7 @@
   </div>
 </div>
 <div class="messages">
-  <%= render partial: 'message',collection: @messages %>
+  <%= render partial: 'messages',collection: @messages %>
 </div>
 
 <%= form_with model: [@room,@message], class: 'form', local: true do |f| %>
