@@ -45,6 +45,10 @@
   color: white;
   text-decoration: none;
 }
+.room-name{
+  padding: 0 0 40px 0;
+
+}
 .main-header{
   background-color: #ffffff;
   height: 100px;
